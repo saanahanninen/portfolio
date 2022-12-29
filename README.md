@@ -1,0 +1,1 @@
+A personal portfolio website that showcases my learning progress and projects

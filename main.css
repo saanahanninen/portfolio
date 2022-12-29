@@ -1,0 +1,156 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #FFFF;
+    margin: 0;
+}
+
+#nav {
+    position: sticky;
+    background-color: #C6BBAC;
+}
+
+#nav .nav-Link {
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+#nav .nav-Link:hover {
+    color: black;
+}
+
+.navbar-light .navbar-brand {
+    font-family: "DM Serif Display", serif;
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+.navbar-light .navbar-brand:hover {
+    color: black;
+}
+
+#copyright {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-family: "DM Serif Display", serif;
+}
+
+h2,
+h3 {
+    font-size: 1.4rem;
+    font-family: "DM Serif Display", serif;
+}
+
+.row {
+    text-align: justify;
+    align-items: center;
+    margin: 0;
+    font-size: 0.95rem;
+    padding: 3% 10% 1% 10%;
+}
+
+/* main page */
+
+.topImg {
+    max-width: 100%;
+    height: auto;
+}
+
+#h1Main,
+#introContent {
+    color: white;
+    animation: fadeIn ease-in 1.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#firstRow {
+    background-color: #C6BBAC;
+    height: 100vh;
+    text-align: center;
+}
+
+#welcome {
+    text-align: justify;
+}
+
+/* projects page */
+
+.contentImgHolder,
+.viewButtonHolder {
+    text-align: center;
+}
+
+.contentImgHolder {
+    position: relative;
+}
+
+.contentImg {
+    max-width: 100%;
+    height: auto;
+}
+
+.projectName {
+    margin-top: 15px;
+}
+
+.viewButton {
+    border: 0.15rem solid #C6BBAC;
+    background-color: transparent;
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.viewButton:hover {
+    color: white;
+    border-color: white;
+    background-color: #C6BBAC;
+}
+
+/* projects */
+
+#projectImg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* contacts page */
+
+.contactLink {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contactLink:hover {
+    color: #C6BBAC;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#contactContent {
+    padding-bottom: 4%;
+}
