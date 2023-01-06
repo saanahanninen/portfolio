@@ -54,6 +54,18 @@ h3 {
     padding: 3% 10% 1% 10%;
 }
 
+.linkInText {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.linkInText:hover {
+    color: #C6BBAC;
+    text-decoration: none;
+    font-weight: 500;
+}
+
 /* index page */
 
 .topImg {
@@ -138,18 +150,6 @@ h3 {
 }
 
 /* contacts page */
-
-.contactLink {
-    color: black;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.contactLink:hover {
-    color: #C6BBAC;
-    text-decoration: none;
-    font-weight: 500;
-}
 
 #contactContent {
     padding-bottom: 4%;
