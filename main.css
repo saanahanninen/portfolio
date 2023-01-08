@@ -1,3 +1,5 @@
+/* global */
+
 body {
     font-family: "Montserrat", sans-serif;
     background-color: #FFFF;
@@ -101,7 +103,11 @@ h3 {
     text-align: justify;
 }
 
-/* projects page */
+/* projects page and index */
+
+#projectIntroRow {
+    align-items: start;
+}
 
 .contentImgHolder,
 .viewButtonHolder {
@@ -121,6 +127,22 @@ h3 {
     margin-top: 15px;
 }
 
+.projectDescription {
+    height: 150px;
+}
+
+@media (max-width: 991px) {
+    .projectDescription {
+        height: 100px;
+    }
+}
+
+@media (max-width: 575px) {
+    .projectDescription {
+        height: 140px;
+    }
+}
+
 .viewButton {
     border: 0.15rem solid #C6BBAC;
     background-color: transparent;
@@ -132,8 +154,12 @@ h3 {
     color: black;
     text-align: center;
     border-radius: 10px;
-    margin-top: 15px;
-    margin-bottom: 25px;
+}
+
+@media (max-width: 991px) {
+    .viewButton {
+        margin-bottom: 25px;
+    }
 }
 
 .viewButton:hover {
@@ -144,7 +170,11 @@ h3 {
 
 /* projects */
 
-#projectImg {
+.projectImgHolder {
+    text-align: center;
+}
+
+.projectImg {
     max-width: 100%;
     height: auto;
 }
