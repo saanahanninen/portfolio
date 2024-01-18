@@ -11,6 +11,3 @@ I'm passionate about designing beautiful yet functional products that combine us
 Please feel free to take a look at my portfolio & some projects I've done so far.
 
 &#128205; Helsinki
-
-#### STATUS 01/24:
-Please note that I'm still working on the responsiveness and therefore I'd recommend visiting the site on desktop. Thank you for understanding!
