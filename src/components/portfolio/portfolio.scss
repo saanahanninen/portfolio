@@ -66,6 +66,11 @@
                 height: 150px;
             }
 
+            @include mobile {
+                width: 150px;
+                height: 100px;
+            }
+
             h3 {
                 position: absolute;
                 display: none;

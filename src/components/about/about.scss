@@ -40,13 +40,9 @@
 
             @include mobile {
                 width: 300px;
-                height: 260px;
-                padding: 5px;
-                margin: 0px 20px;
-            }
-
-            @include xs {
-                height: 300px;
+                height: 400px;
+                padding: 0px;
+                margin: 0px 10px;
             }
 
             &.featured {
@@ -55,13 +51,13 @@
                 margin: 0 30px;
 
                 @include mobile {
-                    width: 300px;
-                    height: 300px;
+                    width: 450px;
+                    height: 400px;
                     margin: 0;
                 }
 
                 @include xs {
-                    height: 350px;
+                    height: 400px;
                 }
             }
 
