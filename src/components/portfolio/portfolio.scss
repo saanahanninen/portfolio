@@ -1,0 +1,120 @@
+@import "../../global.scss";
+
+.portfolio {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        @include mobile {
+            font-size: 20px;
+        }
+    }
+
+    ul {
+        margin: 10px 0;
+        padding: 0%;
+        list-style: none;
+        display: flex;
+
+        @include mobile {
+            margin: 10px 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        li {
+            font-size: 16px;
+            font-weight: 400;
+
+            &.active {
+                background-color: $mainColor;
+            }
+        }
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        @include mobile {
+            width: 80%;
+        }
+
+        .item {
+            width: 320px;
+            height: 250px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px #cacaca,
+                -5px -5px 10px #f6f6f6;
+            margin: 10px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            position: relative;
+            transition: all .5s ease;
+            cursor: pointer;
+
+            @include mobile {
+                width: 200px;
+                height: 150px;
+            }
+
+            @include mobile {
+                width: 150px;
+                height: 100px;
+            }
+
+            h3 {
+                position: absolute;
+                display: none;
+                z-index: 1;
+
+                @include mobile {
+                    font-size: 22px;
+                }
+
+                @include xs {
+                    font-size: 18px;
+                }
+            }
+
+            &:hover h3 {
+                display: flex;
+
+                @include mobile {
+                    font-size: 16px;
+                }
+            }
+
+            &:hover {
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background-color: $mainColor;
+                    opacity: 0.2;
+                    z-index: 1;
+                }
+
+                a {
+                    z-index: 2;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+        }
+    }
+}
