@@ -10,7 +10,7 @@ export default function Intro() {
                 <h1>Saana! &#128075;&#127995;</h1>
                 <h3><Typewriter
                     options={{
-                        strings: ["Aspiring UX/UI Designer", "Future Front-end Developer"],
+                        strings: ["Aspiring UX/UI Designer.", "Future Front-end Developer."],
                         autoStart: true,
                         delay: 50,
                         loop: true,
