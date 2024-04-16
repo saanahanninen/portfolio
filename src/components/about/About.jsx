@@ -28,7 +28,7 @@ export default function About() {
             desc: (
                 <div>
                     I'm passionate about all things creative but I'm also a rather analytical person. I've always been intrigued by beautiful and practical designs but I
-                    didn't realise my interest in web design until my late twenties.
+                    didn't realise my interest in UX/UI design until my late twenties.
                     <br /> <br />
                     &#128205;I'm currently based in Helsinki, Finland. However, I've previously lived abroad for several years which has expanded and enriched my wordview and understanding of cross-cultural design.
                 </div>
