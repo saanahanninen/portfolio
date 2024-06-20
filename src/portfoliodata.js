@@ -50,6 +50,13 @@ export const universityProjects = [
         link: "https://github.com/saanahanninen/programming-1",
         img: "assets/prog1.png",
     },
+    {
+        id: 5,
+        title: "Furniture Rental Service",
+        link: "assets/rental.pdf",
+        img: "assets/rental.png",
+    },
+
 ];
 
 export const personalProjects = [

@@ -9,7 +9,7 @@ export default function About() {
             icon: <SchoolOutlined className="icon" />,
             desc: (
                 <div>
-                    <b>2022 -</b> <br />
+                    <b>2022 - 2025</b> <br />
                     BSc Computer Science <br />(Human-Technology Interaction) <br /><br />
                     <b>2017 - 2018</b> <br />
                     MSc Management
