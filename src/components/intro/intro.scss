@@ -2,8 +2,7 @@
 
 .intro {
     display: flex;
-    background: #eeaeca;
-    background: radial-gradient(circle, #eeaec8 0%, #94bbE9 100%);
+    background-color: $accentTwo;
 
     @include mobile {
         flex-direction: column;

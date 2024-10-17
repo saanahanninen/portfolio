@@ -1,96 +1,92 @@
 @import "../../global.scss";
 
 .portfolio {
-    background: radial-gradient(circle, #f4dbe4 0%, #cbe3fe 100%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
-    height: 100%;
-    width: 100%;
-
-    @include xs {
-        min-height: 100vh;
-    }
 
     ul {
-        margin: 10px 0;
-        padding: 0%;
-        list-style: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
         display: flex;
+        justify-content: center;
+        list-style: none;
 
-        @include mobile {
-            margin: 0;
-            flex-wrap: wrap;
-            justify-content: center;
+        @include xs {
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+
         }
 
         li {
-            font-size: 16px;
-            font-weight: 400;
-            margin: 20px;
+            font-size: 18px;
+            border-radius: 0;
+
+            @include xs {
+                font-size: 16px;
+                width: 50%;
+                text-align: center;
+            }
 
             &.active {
-                background-color: $mainColor;
+                background-color: $accentTwo;
+                color: $mainColor;
             }
+
+        }
+
+        li:hover {
+            color: $accentColor;
         }
     }
 
     .container {
-        width: 80%;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 20px;
 
         @include mobile {
-            width: 100%;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include xs {
+            grid-template-columns: 1fr;
+            margin: 0;
         }
 
         .item {
-            width: 400px;
-            height: 300px;
-            border-radius: 20px;
-            box-shadow: 0px 0px 15px -8px #000000;
-            margin: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #ffffff;
             position: relative;
-            transition: all .5s ease;
-            cursor: pointer;
+            height: 300px;
+            width: auto;
+            display: flex;
+            margin: 15px;
+            justify-content: center;
+            align-items: flex-start;
 
             @include mobile {
-                width: 200px;
-                height: 150px;
+                height: 250px;
             }
 
             @include xs {
-                width: 150px;
-                height: 100px;
+                height: 250px;
+                margin: 15px 0 15px 0;
             }
 
             h3 {
                 position: absolute;
                 display: none;
                 z-index: 1;
+                bottom: 130px;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
 
                 @include mobile {
-                    font-size: 22px;
+                    bottom: 110px;
                 }
 
-                @include xs {
-                    font-size: 18px;
-                }
             }
 
             &:hover h3 {
                 display: flex;
-
-                @include mobile {
-                    font-size: 16px;
-                }
             }
 
             &:hover {
@@ -114,7 +110,9 @@
                     top: 0;
                     left: 0;
                 }
+
             }
+
         }
     }
 }

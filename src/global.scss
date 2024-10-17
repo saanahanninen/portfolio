@@ -1,7 +1,7 @@
 $mainColor: #363636;
 $accentColor: #ba215e;
-$accentTwo: #fae8f2;
-$accentThree: #ebe8f3;
+$accentTwo: #FDE8E9;
+$accentThree: #769FB6;
 
 $xsBreakpoint: 576px;
 $smBreakpoint: 768px;
@@ -25,10 +25,6 @@ h1 {
 
 h2 {
     font-size: 35px;
-
-    @include mobile {
-        font-size: 24px;
-    }
 }
 
 h3 {
