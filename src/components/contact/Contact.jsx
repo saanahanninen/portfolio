@@ -1,11 +1,11 @@
 import "./contact.scss";
-import { Instagram, GitHub, LinkedIn } from "@material-ui/icons";
+import { Instagram, GitHub, LinkedIn } from '@mui/icons-material';
 
 export default function Contact() {
     return (
         <div className="contact" id="contact">
             <div className="left">
-                <img src="assets/envelope.png" alt="envelopes" />
+                <img src={`${process.env.PUBLIC_URL}/assets/envelope.png`} alt="envelopes" />
             </div>
             <div className="right">
                 <h2>Contact</h2>

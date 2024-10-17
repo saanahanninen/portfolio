@@ -1,10 +1,28 @@
 import "./about.scss";
-import { SchoolOutlined, FaceOutlined, GradeOutlined } from "@material-ui/icons";
+import { SchoolOutlined, FaceOutlined, GradeOutlined } from '@mui/icons-material';
 
 export default function About() {
     const data = [
         {
             id: 1,
+            title: "",
+            icon: <FaceOutlined className="icon" />,
+            desc: (
+                <div className="about-description">
+                    <img src={`${process.env.PUBLIC_URL}/assets/profile.png`} alt="profile photo" className="profile-image" />
+                    <div className="about-text">
+                        I'm passionate about all things creative but I'm also a rather analytical person. I've always been intrigued by beautiful and practical designs but I didn't realise my interest in UX/UI design until my late twenties.
+                        <br /> <br />
+                        Since my background is in business, I view the company as a whole, considering perspectives from departments such as finance, marketing, HR and design departments. Therefore, I'm especially interested in designing products and services in a way that considers both user-centred design and business objectives.
+                        <br /> <br />
+                        &#128205;I'm currently based in Helsinki, Finland. However, I've previously lived abroad for several years which has expanded and enriched my worldview and understanding of cross-cultural design.
+                    </div>
+                </div>
+            ),
+            spanall: true,
+        },
+        {
+            id: 2,
             title: "Education",
             icon: <SchoolOutlined className="icon" />,
             desc: (
@@ -20,20 +38,6 @@ export default function About() {
                     I've also obtained UX, AI, Web Analytics and eCom certificates.
                 </div>
             )
-        },
-        {
-            id: 2,
-            title: "About",
-            icon: <FaceOutlined className="icon" />,
-            desc: (
-                <div>
-                    I'm passionate about all things creative but I'm also a rather analytical person. I've always been intrigued by beautiful and practical designs but I
-                    didn't realise my interest in UX/UI design until my late twenties.
-                    <br /> <br />
-                    &#128205;I'm currently based in Helsinki, Finland. However, I've previously lived abroad for several years which has expanded and enriched my wordview and understanding of cross-cultural design.
-                </div>
-            ),
-            featured: true
         },
         {
             id: 3,
@@ -54,17 +58,16 @@ export default function About() {
 
     return (
         <div className="about" id="about">
-            <div className="container">
+            <h2>About</h2>
+            <div className="grid-container">
                 {data.map((d) => (
-                    <div className={d.featured ? "card featured" : "card"}>
+                    <div className={d.spanall ? "card spanall" : "card"} key={d.id}>
                         <div className="top">
                             <h3>{d.title}</h3>
                         </div>
                         <div className="center">
                             {d.desc}
-                        </div>
-                        <div className="bottom">
-                            <span>{d.icon}</span>
+                            {d.icon}
                         </div>
                     </div>
                 ))}

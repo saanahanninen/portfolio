@@ -17,9 +17,8 @@ function App() {
       <Menu />
       <div className="sections">
         <Intro />
-        <Portfolio />
         <About />
-        <Fun />
+        <Portfolio />
         <Contact />
 
       </div>

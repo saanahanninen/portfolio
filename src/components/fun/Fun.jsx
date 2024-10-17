@@ -1,4 +1,4 @@
-import { NavigateBefore, NavigateNext } from "@material-ui/icons";
+import { NavigateBefore, NavigateNext } from '@mui/icons-material';
 import "./fun.scss";
 import { data } from "../../fundata";
 import { useState } from "react";

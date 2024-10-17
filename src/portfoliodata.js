@@ -1,27 +1,33 @@
 export const featuredProjects = [
     {
         id: 1,
-        title: "Daily UI",
-        link: "assets/dailyui.pdf",
-        img: "assets/dailyui.png",
-    },
-    {
-        id: 2,
         title: "Second-Hand Web Store",
         link: "assets/secondhand.pdf",
         img: "assets/secondhand.png",
     },
     {
-        id: 3,
+        id: 2,
         title: "Energy App",
         link: "assets/energyapp.pdf",
         img: "assets/energyapp.png",
     },
     {
-        id: 4,
+        id: 3,
         title: "Ruokailuni",
         link: "assets/ruokailuni.pdf",
         img: "assets/ruokailuni.png",
+    },
+    {
+        id: 4,
+        title: "Furniture Rental Service",
+        link: "assets/rental.pdf",
+        img: "assets/rental.png",
+    },
+    {
+        id: 5,
+        title: "Creativity as a Tool",
+        link: "assets/creativity.pdf",
+        img: "assets/creativity.png",
     },
 ];
 
@@ -55,6 +61,12 @@ export const universityProjects = [
         title: "Furniture Rental Service",
         link: "assets/rental.pdf",
         img: "assets/rental.png",
+    },
+    {
+        id: 6,
+        title: "Creativity as a Tool",
+        link: "assets/creativity.pdf",
+        img: "assets/creativity.png",
     },
 
 ];

@@ -53,7 +53,7 @@ export default function Portfolio() {
             </ul>
             <div className="container">
                 {data.map((d) => (
-                    <div className="item" key={d.id} style={{ backgroundImage: `url(${d.img})`, backgroundSize: "contain" }}>
+                    <div className="item" key={d.id} style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/${d.img})`, backgroundSize: "cover" }}>
                         <a href={d.link} target="_blank" rel="noreferrer"></a>
                         <h3>{d.title}</h3>
                     </div>
@@ -62,3 +62,5 @@ export default function Portfolio() {
         </div>
     );
 }
+
+
