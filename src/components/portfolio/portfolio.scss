@@ -10,6 +10,10 @@
     height: 100%;
     width: 100%;
 
+    @include xs {
+        min-height: 100vh;
+    }
+
     ul {
         margin: 10px 0;
         padding: 0%;
