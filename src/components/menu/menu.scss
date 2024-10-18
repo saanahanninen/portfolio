@@ -17,15 +17,13 @@
 
 
     @include mobile {
-        height: 60vh;
+        height: 35vh;
         width: 200px;
         justify-content: end;
     }
 
     @include xs {
         height: 45vh;
-        width: 200px;
-        justify-content: end;
     }
 
     &.active {

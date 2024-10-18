@@ -3,6 +3,7 @@
 .contact {
     background-color: #ffffff;
     display: flex;
+    height: calc(100vh - 70px);
 
     @include mobile {
         flex-direction: column;
@@ -15,7 +16,7 @@
         justify-content: center;
 
         img {
-            height: 100%;
+            height: auto;
             width: 100%;
         }
     }
