@@ -1,9 +1,9 @@
 .app {
-    height: 100vh;
+    height: 100dvh;
 
     .sections {
         width: 100%;
-        height: calc(100vh - 70px);
+        height: calc(100dvh - 70px);
         background-color: #ffffff;
         position: relative;
         top: 70px;
@@ -17,7 +17,7 @@
 
         >* {
             width: 100vw;
-            min-height: calc(100vh - 70px);
+            min-height: calc(100dvh - 70px);
             scroll-snap-align: start;
         }
     }
