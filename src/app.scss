@@ -17,6 +17,7 @@
         >* {
             width: 100vw;
             min-height: calc(100vh - 70px);
+            scroll-snap-align: start;
         }
     }
 }
