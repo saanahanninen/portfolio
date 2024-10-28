@@ -16,9 +16,9 @@ export default function Contact() {
                     <GitHub className="icon" />
                     <span>saanahanninen</span>
                 </a>
-                <a href="https://www.instagram.com/saana.codes/" target="_blank" rel="noreferrer" className="itemContainer">
+                <a href="https://www.instagram.com/saana.bydesign/" target="_blank" rel="noreferrer" className="itemContainer">
                     <Instagram className="icon" />
-                    <span>saana.codes</span>
+                    <span>saana.bydesign</span>
                 </a>
             </div>
         </div>
