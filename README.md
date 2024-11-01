@@ -3,7 +3,7 @@
 
 ## Hello there, I'm Saana.
 
-&#127891; BSc Computer Science student - graduating and continuing to the MSc programme in 2024 <br>
+&#127891; MSc Computer Science student<br>
 &#127919; Specialising in Human-Technology Interaction <br>
 &#128200; Background in Business (MSc Management, BSc Accounting) <br>
 
