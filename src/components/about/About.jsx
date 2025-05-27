@@ -12,11 +12,11 @@ export default function About() {
                     <br></br>Grounded in analytical thinking.
                     <br></br>Fascinated by the blend of <span>aesthetics and functionality</span>.
                 </div>
-                <div className="about-me">With a background in business, I bring a holistic perspective to my work, considering how design integrates with various departments such as finance, marketing, HR, and more. My goal is to create products and services that not only deliver exceptional user experiences but also align seamlessly with business objectives. I've previously lived abroad which has a deep appreciation for cross-cultural design, and I'm always eager to expand my worldview further.
+                <div className="about-me">With a background in business, I bring a holistic perspective to my work, considering how design integrates with various departments such as finance, marketing, HR, and more. My goal is to create products and services that not only deliver exceptional user experiences but also align seamlessly with business objectives.
                 </div>
                 <div className="location">                   <br></br>&#128205; Helsinki, Finland</div>
                 <div className="keywords">
-                    UX/UI Design | UX Research | User Journeys | Wireframing | Prototyping | Graphic Design | Front-end Development |  Brand Management | Consumer Behaviour | Cross-team Collaboration | Figma | JavaScript | React | CSS | Tailwind | WooCommerce | WordPress
+                    UX/UI Design | UX Research | User Journeys | Wireframing | Prototyping | Graphic Design | Front-end Development |  Brand Management | Consumer Behaviour | Cross-team Collaboration | Figma | Google Analytics | JavaScript | React | CSS | WooCommerce | WordPress
                 </div>
             </div>
         </div>
