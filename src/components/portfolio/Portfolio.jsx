@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Projects from "../projects/Projects";
 import "./portfolio.scss";
-import { featuredProjects, universityProjects, personalProjects } from "../../portfoliodata";
+import { featuredProjects, universityProjects, personalProjects, workProjects } from "../../portfoliodata";
 
 export default function Portfolio() {
 
@@ -12,6 +12,10 @@ export default function Portfolio() {
         {
             id: "featured",
             title: "Featured"
+        },
+        {
+            id: "work",
+            title: "Work samples"
         },
         {
             id: "university",
@@ -27,6 +31,9 @@ export default function Portfolio() {
         switch (selected) {
             case "featured":
                 setData(featuredProjects);
+                break;
+            case "work":
+                setData(workProjects);
                 break;
             case "university":
                 setData(universityProjects);

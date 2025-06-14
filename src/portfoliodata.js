@@ -1,33 +1,39 @@
 export const featuredProjects = [
     {
         id: 1,
+        title: "Invoices and payments",
+        link: "assets/invoices.pdf",
+        img: "assets/invoices.png",
+    },
+    {
+        id: 2,
+        title: "Optimising customer acquisition through redesign",
+        link: "assets/customeracquisition.pdf",
+        img: "assets/customeracquisition.png",
+    },
+    {
+        id: 3,
         title: "Second-Hand Web Store",
         link: "assets/secondhand.pdf",
         img: "assets/secondhand.png",
     },
     {
-        id: 2,
+        id: 4,
         title: "Energy App",
         link: "assets/energyapp.pdf",
         img: "assets/energyapp.png",
     },
     {
-        id: 3,
+        id: 5,
         title: "Ruokailuni",
         link: "assets/ruokailuni.pdf",
         img: "assets/ruokailuni.png",
     },
     {
-        id: 4,
+        id: 6,
         title: "Furniture Rental Service",
         link: "assets/rental.pdf",
         img: "assets/rental.png",
-    },
-    {
-        id: 5,
-        title: "Creativity as a Tool",
-        link: "assets/creativity.pdf",
-        img: "assets/creativity.png",
     },
 ];
 
@@ -96,4 +102,19 @@ export const personalProjects = [
         link: "assets/secondhand.pdf",
         img: "assets/secondhand.png",
     },
+];
+
+export const workProjects = [
+    {
+        id: 1,
+        title: "Invoices and payments",
+        link: "assets/invoices.pdf",
+        img: "assets/invoices.png",
+    },
+    {
+        id: 2,
+        title: "Optimising customer acquisition through redesign",
+        link: "assets/customeracquisition.pdf",
+        img: "assets/customeracquisition.png",
+    }
 ];

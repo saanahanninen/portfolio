@@ -12,7 +12,7 @@ export default function About() {
                     <br></br>Grounded in analytical thinking.
                     <br></br>Fascinated by the blend of <span>aesthetics and functionality</span>.
                 </div>
-                <div className="about-me">With a background in business, I bring a holistic perspective to my work, considering how design integrates with various departments such as finance, marketing, HR, and more. My goal is to create products and services that not only deliver exceptional user experiences but also align seamlessly with business objectives.
+                <div className="about-me">With a background in business, I bring a holistic perspective to product development - balancing user needs, visual design, and strategic goals. I am passionate about creating intuitive, impactful digital experiences that not only delight users but also drive meaningful results.
                 </div>
                 <div className="location">                   <br></br>&#128205; Helsinki, Finland</div>
                 <div className="keywords">
