@@ -7,30 +7,24 @@ export const featuredProjects = [
     },
     {
         id: 2,
-        title: "Optimising customer acquisition through redesign",
-        link: "assets/customeracquisition.pdf",
-        img: "assets/customeracquisition.png",
-    },
-    {
-        id: 3,
         title: "Second-Hand Web Store",
         link: "assets/secondhand.pdf",
         img: "assets/secondhand.png",
     },
     {
-        id: 4,
+        id: 3,
         title: "Energy App",
         link: "assets/energyapp.pdf",
         img: "assets/energyapp.png",
     },
     {
-        id: 5,
+        id: 4,
         title: "Ruokailuni",
         link: "assets/ruokailuni.pdf",
         img: "assets/ruokailuni.png",
     },
     {
-        id: 6,
+        id: 5,
         title: "Furniture Rental Service",
         link: "assets/rental.pdf",
         img: "assets/rental.png",
@@ -111,10 +105,4 @@ export const workProjects = [
         link: "assets/invoices.pdf",
         img: "assets/invoices.png",
     },
-    {
-        id: 2,
-        title: "Optimising customer acquisition through redesign",
-        link: "assets/customeracquisition.pdf",
-        img: "assets/customeracquisition.png",
-    }
 ];
